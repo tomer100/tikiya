@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<script src="script.js"></script>
+<div class="container">
+    <br>
+  <br>
+    <h1 class="text-center">Add a product</h1>
+    <br>
+  <br>
+    <form>
+    <div class="form-group">
+      <label>1.Product name</label>
+      <input placeholder="Enter Product name"  id="pName" class="form-control form-control-sm" required type="text" />
+    </div>
+      <div class="form-group">
+      <label>2.Product price</label>
+      <input placeholder="Enter Product price"  id="pPrice" class="form-control form-control-sm" required type="number"/>$
+    </div>
+    <label>3.Product category</label>
+    <select form="pCategory" id="pCategory">
+        <option value="Drinks">Drinks</option>
+        <option value="Meat">Meat</option>
+        <option value="Dairy">Dairy</option>
+        <option value="Snacks">Snacks</option>
+        <option value="Basic">Basic</option>
+    </select>
+    </div><br>     
+    <label for="pPhoto">4.Product picture</label>
+    <input type="text" id="pPicture" name="name" required
+       minlength="10" maxlength="200" size="30"><br><br>
+    <button type="button" id ="addaproduct" class="btn btn-sm btn-primary"><h4>Add this product</h4></button>
+</form>
+  
+  <br>
+    <br>
+
+  <!--Second Option table element-->
+    <h3><center>My Cart</center></h3>
+    <table id="t01">
+        <tr>
+          <th>Product name</th>
+          <th>Product price</th>
+          <th>Product category</th>
+          <th>Product picture</th>
+        </tr>
+        <tr>
+          <td>Coca Cola Bottle</td>
+          <td>1$</td>
+          <td>Drinks</td>
+          <td>#</td>
+        </tr>
+        <tr>
+            <td>Beef 1kg</td>
+            <td>15$</td>
+            <td>Meat</td>
+            <td>#</td>
+          </tr>
+          <tr>
+            <td>Pesek-Zman</td>
+            <td>0.75$</td>
+            <td>Snacks</td>
+            <td>#</td>
+          </tr>
+          <tr>
+            <td>Parmesan Cheese</td>
+            <td>7.90$</td>
+            <td>Dairy</td>
+            <td>#</td>
+          </tr>
+          <tr>
+            <td>Marlboro red</td>
+            <td>10$</td>
+            <td>Basic</td>
+            <td>#</td>
+          </tr>
+      </table>
+
+</body>
+</html>
